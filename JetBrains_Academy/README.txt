@@ -1,4 +1,4 @@
-#What's this about?
+# What's this about?
 
 Projects of JetBrains Academy's Java Developer
 
