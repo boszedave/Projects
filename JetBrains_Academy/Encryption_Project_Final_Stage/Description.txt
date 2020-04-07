@@ -3,7 +3,8 @@ We should note that such algorithms are not suitable for industrial use because 
 but these algorithms demonstrate some general ideas about encryption.
 
 The program has different algorithms to encode/decode data. 
-The first one would be shifting algorithm (it shifts each letter by the specified number according to its order in the alphabet in circle). The second one would be based on Unicode table.
+The first one would be shifting algorithm (it shifts each letter by the specified number according to its order in the alphabet in circle). 
+The second one would be based on Unicode table.
 
 The program must parse three arguments: -mode, -key and -data. The first argument should determine the program’s mode 
 (enc - encryption, dec - decryption). The second argument is an integer key to modify the message, 
