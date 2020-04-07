@@ -1,3 +1,3 @@
 # Projects
 
-Personal projects for learning, practicing etc.
+Personal projects for learning, practicing...
