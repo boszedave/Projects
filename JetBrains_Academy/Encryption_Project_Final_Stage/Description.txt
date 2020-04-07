@@ -1,4 +1,6 @@
-In this project, you will learn how to encrypt and decrypt messages and texts using simple algorithms. We should note that such algorithms are not suitable for industrial use because they can easily be cracked, but these algorithms demonstrate some general ideas about encryption.
+In this project, you will learn how to encrypt and decrypt messages and texts using simple algorithms. 
+We should note that such algorithms are not suitable for industrial use because they can easily be cracked, 
+but these algorithms demonstrate some general ideas about encryption.
 
 The program has different algorithms to encode/decode data. 
 The first one would be shifting algorithm (it shifts each letter by the specified number according to its order in the alphabet in circle). The second one would be based on Unicode table.
