@@ -6,7 +6,8 @@ The program has different algorithms to encode/decode data.
 The first one would be shifting algorithm (it shifts each letter by the specified number according to its order in the alphabet in circle). The second one would be based on Unicode table.
 
 The program must parse three arguments: -mode, -key and -data. The first argument should determine the program’s mode 
-(enc - encryption, dec - decryption). The second argument is an integer key to modify the message, and the third argument is a text or ciphertext within quotes to encrypt or decrypt.
+(enc - encryption, dec - decryption). The second argument is an integer key to modify the message, 
+and the third argument is a text or ciphertext within quotes to encrypt or decrypt.
 
 All the arguments are guaranteed to be passed to the program. If for some reason it turns out to be wrong:
 
