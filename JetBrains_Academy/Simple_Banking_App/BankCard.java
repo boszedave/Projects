@@ -8,14 +8,15 @@ public class BankCard {
     private int balance = 0;
 
     public BankCard() {
-        final String BIN = "400000";
+        final String BIN_FIRST_SIX_DIGIT = "400000";
 
         SecureRandom secRand = new SecureRandom();
-        cardNumber = BIN + String.format("%09d", secRand.nextInt(1000000000));
+        cardNumber = BIN_FIRST_SIX_DIGIT + String.format("%09d", secRand.nextInt(1000000000));
         cardNumber = cardNumber + checkSum(cardNumber);
         cardPin = String.format("%04d", secRand.nextInt(10000));
     }
 
+    //Luhn algorithm
     public static String checkSum(String cardNumber) {
         int[] number = new int[cardNumber.length()];
         int sum = 0;

@@ -83,9 +83,7 @@ public class Database {
             ResultSet rs = pstmt.executeQuery();
 
             while (rs.next()) {
-                //System.out.println("Balance: ");
                 balance = rs.getInt("balance");
-                //return rs.getInt("balance");
             }
         } catch (SQLException e) {
             System.out.println(e.getMessage());
@@ -145,7 +143,6 @@ public class Database {
             pstmt.setString(1, cardNumber);
             ResultSet rs = pstmt.executeQuery();
 
-            // loop through the result set
             while (rs.next()) {
                 return true;
             }
@@ -199,9 +196,7 @@ public class Database {
         try (Connection conn = this.connect();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
 
-            // set the corresponding param
             pstmt.setString(1, selectedCard.getCardNumber());
-            // execute the delete statement
             pstmt.executeUpdate();
             System.out.println("The account has been closed!");
         } catch (SQLException e) {

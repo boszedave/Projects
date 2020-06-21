@@ -1,10 +1,5 @@
 package banking;
 
-import java.util.*;
-import java.sql.*;
-
-//TODO this project is CRYING for OOP, DO IT!
-
 public class Main {
     public static void main(String[] args) {
 
@@ -24,11 +19,6 @@ public class Main {
         AccountManager acc = new AccountManager(fileName);
         acc.startApplication();
 
-
-        /*
-
-
-        */
 
     }
 }

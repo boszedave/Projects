@@ -76,11 +76,10 @@ public class AccountManager {
                     break;
                 case 2:
                     //deposit money
-                    //scanner.nextLine();
                     addIncome(selectedCard);
                     break;
                 case 3:
-                    //this line is needed from prevent scanner bugging...
+                    //this line is needed for prevent scanner bugging...
                     scanner.nextLine();
                     //transfer money
                     transferMoney(selectedCard);
